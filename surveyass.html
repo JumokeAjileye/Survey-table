@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>SURVEY FORM</h1>
+        <H4>Thank You For Your feedback</H4>
+    </header>
+    <form>
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Enter your name" name="name" /><br><br>
+        </div><br>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter email" /><br><br>
+        </div><br>
+
+        <div>
+            <label for="date"> Your DOB</label> <br>
+            <input type="date" name="DOB" value="" placeholder="Enter date"> <br><br>
+        </div><br>
+
+        <div>
+            <label for="role"> Choose a role thet best describes you</label>
+            <select name="select-role" id="role">
+                <option value="select your role">Select your role</option>
+                <option value="Student">Student</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Technician">Technician</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="Reviews">Select things that you like about our product</label><br>
+            <input type="checkbox" name="review" value="UI" /> UI <br>
+            <input type="checkbox" name="review" value="Features" /> Features <br>
+            <input type="checkbox" name="review" value="Services" /> Services <br>
+            <input type="checkbox" name="review" value="Simpleness" /> Simpleness <br>
+            <input type="checkbox" name="review" value=" Accessibilty" /> Accessibilty<br>
+        </div><br>
+
+        <div>
+            <label for="remarks">Remarks</label><br>
+            <textarea name="remark" id="remark" cols="30" rows="10" placeholder="Send us a message"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+
+</html>
